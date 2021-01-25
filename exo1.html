@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice Java TP2</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <script src="../JS/JQuery 3.5.1.js"></script>
+    <script src="../JS/app.js"></script>
+    <script>
+        //Au chargement de la page
+        $(
+            function(){
+                $('#btnCalculer').click(exo1);
+            }
+        )
+    </script>
+</head>
+<body>
+    <label for="">Vos km</label>
+    <input type="text" id="txtKm">
+    <br>
+    <button id="btnCalculer">Calculer</button>
+    <br>
+    <label for="">Vos frais</label>
+    <label for="" id="txtFrais"></label>
+    <!--<input type="text" id="txtFrais" disabled>-->
+</body>
+</html>
